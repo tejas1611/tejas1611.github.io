@@ -39,6 +39,9 @@ class DegreeCard extends Component {
                 <h3 className="card-subtitle" style={{ color: theme.text }}>
                   {degree.subtitle}
                 </h3>
+                <h3 className="card-subtitle" style={{ color: theme.text }}>
+                  CGPA: {degree.cgpa}
+                </h3>
               </div>
               <div className="body-header-duration">
                 <h3 className="duration" style={{ color: theme.text }}>
@@ -54,22 +57,6 @@ class DegreeCard extends Component {
                   </p>
                 );
               })}
-              {degree.website_link && (
-                <a
-                  href={degree.website_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div
-                    className="visit-btn"
-                    style={{ backgroundColor: theme.headerColor }}
-                  >
-                    <p className="btn" style={{ color: theme.text }}>
-                      Visit Website
-                    </p>
-                  </div>
-                </a>
-              )}
             </div>
           </div>
         </Fade>

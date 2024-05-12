@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "masterPortfolio",
+  "name": "tejasPortfolio",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://tejas1611.github.io",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
