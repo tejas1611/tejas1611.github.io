@@ -9,11 +9,11 @@
   margin-bottom: 10px;
 }
 
-.icon-button i {
+.icon-button span {
   border-radius: 2.6rem;
   cursor: pointer;
   display: inline-block;
-  font-size: 1.3rem;
+  font-size: 2rem;
   height: 2.6rem;
   line-height: 2.6rem;
   margin: 0 5px;

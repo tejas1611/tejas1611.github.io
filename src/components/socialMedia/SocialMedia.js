@@ -4,10 +4,10 @@ import { socialMediaLinks } from "../../portfolio";
 import styled from "styled-components";
 
 const IconWrapper = styled.span`
-  i {
+  span {
     background-color: ${(props) => props.backgroundColor};
   }
-  &:hover i {
+  &:hover span {
     background-color: ${({ theme }) => theme.text};
     transition: 0.3s ease-in;
   }
@@ -26,7 +26,11 @@ export default function socialMedia(props) {
             rel="noopener noreferrer"
           >
             <IconWrapper {...media} {...props}>
-              <i className={`fab ${media.fontAwesomeIcon}`}></i>
+              <span
+                className="iconify"
+                data-icon={media.fontAwesomeIcon}
+                data-inline="false"
+              ></span>
             </IconWrapper>
             {/* <span></span> */}
           </a>
