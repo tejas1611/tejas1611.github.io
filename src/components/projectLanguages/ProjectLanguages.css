@@ -2,21 +2,21 @@
   padding-left: 0;
   list-style: none;
   font-size: 2rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-bottom: 2px;
+  margin-top: 2px;
   text-align: right;
 }
 
 .software-skill-inline-languages {
   display: inline-block;
   margin-right: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   font-family: "Google Sans Regular";
 }
 
 @media (max-width: 768px) {
   .software-skill-inline-languages {
     margin-right: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
   }
 }

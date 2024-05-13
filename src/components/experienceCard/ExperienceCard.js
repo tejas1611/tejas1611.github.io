@@ -11,7 +11,7 @@ class ExperienceCard extends Component {
     return (
       <div
         className="experience-list-item"
-        style={{ marginTop: index === 0 ? 30 : 50 }}
+        style={{ marginTop: index === 0 ? 30 : 50, flex: 1 }}
       >
         <Fade left duration={2000} distance="40px">
           <div className="experience-card-logo-div">
@@ -35,7 +35,7 @@ class ExperienceCard extends Component {
           {index !== totalCards - 1 && (
             <div
               style={{
-                height: 190,
+                height: 210,
                 width: 2,
                 backgroundColor: `${theme.headerColor}`,
                 position: "absolute",
@@ -52,7 +52,7 @@ class ExperienceCard extends Component {
             ></div>
             <div
               className="experience-card"
-              style={{ background: `${theme.body}` }}
+              style={{ background: `${theme.body}`, width: "80vw" }}
             >
               <div
                 style={{
@@ -102,12 +102,15 @@ class ExperienceCard extends Component {
                 style={{
                   display: "flex",
                   justifyContent: "flex-start",
-                  marginTop: 20,
+                  marginTop: 10,
+                  whiteSpace: "pre-line",
                 }}
               >
                 <div className="repo-description" />
-                <p>{experience["description"]}</p>
-                <p>Skills: {experience["skills"].join(" • ")}</p>
+                {experience["description"]}
+              </div>
+              <div>
+                <p>Skills: {experience["skills"]?.join(" • ")}</p>
               </div>
             </div>
           </div>

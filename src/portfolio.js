@@ -58,7 +58,6 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    {},
     {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
@@ -304,7 +303,7 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Nanyang Technoloical University, Singapore",
+      title: "Nanyang Technological University, Singapore",
       subtitle: "B.Eng. in Computer Engineering",
       cgpa: "4.8/5",
       logo_path: "ntu_logo.png",
@@ -411,11 +410,11 @@ const experience = {
           title: "Software Engineering Intern",
           company: "Caladan (AlphaLab Capital)",
           company_url: "https://caladan.xyz/",
-          logo_path: "alphalab_logo.png",
+          logo_path: "alphalab_logo.svg",
           duration: "Jul 2022 - Dec 2022",
           location: "Singapore",
           description:
-            "(1) Agile development and testing of mid-frequency cryptocurrency trading infrastructure. (2) Migration and deployment of trade servers and quote servers to C#",
+            "(1) Agile development and testing of mid-frequency cryptocurrency trading infrastructure. \n(2) Migration and deployment of trade servers and quote servers to C#",
           color: "#ee3c26",
           skills: [
             "Python",
@@ -444,7 +443,7 @@ const experience = {
           title: "Primary Research Trainee",
           company: "Client First Management Consultancy Asia",
           company_url: "https://clientfirst.capital/",
-          logo_path: "client_first_logo_logo.png",
+          logo_path: "client_first_logo.png",
           duration: "Dec 2021 - Jan 2022",
           location: "Dubai, UAE",
           description:
@@ -466,7 +465,7 @@ const experience = {
           duration: "Jul 2021 - Sep 2021",
           location: "Bangalore, India (Remote)",
           description:
-            "(1) Analyzed Big Data for customer retention in client's retail outlets. (2) Programming APIs for web application backend.",
+            "(1) Analyzed Big Data for customer retention in client's retail outlets. \n(2) Programming APIs for web application backend.",
           color: "#0071C5",
           skills: ["MySQL", "FastAPI", "Python", "BeautifulSoup"],
         },
@@ -497,6 +496,7 @@ const experience = {
           description:
             "Research ideas and build formulaic alphas on BRAIN web-based simulator, contributing to organization's research effort.",
           color: "#D83B01",
+          skills: ["Quantitative Research", "Modelling", "Python"],
         },
         {
           title: "Developer Student Club @ NTU",
@@ -508,6 +508,7 @@ const experience = {
           description:
             "Conducted training workshops and brainstormed ideas and projects for solution design competitions.",
           color: "#4285F4",
+          skills: ["Python", "Product Development"],
         },
       ],
     },
@@ -518,7 +519,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "I have worked on several projects focusing on Machine Learning (computer vision, NLP), full-stack development and cloud computing. Here are a few of them.",
+    "I have worked on several projects focusing on core development, Machine Learning (computer vision, NLP), and cloud computing. Here are a few of them.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -536,7 +537,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "tejas.png",
+    profile_image_path: "tejas resized.jpg",
     description:
       "Reach out to me if you have any queries or just want to say hi! I love connecting with new people and exchanging ideas.",
   },
@@ -546,6 +547,7 @@ const contactPageData = {
     locality: "Dubai",
     country: "UAE",
     region: "Dubai",
+    postalCode: "00000",
     streetAddress: "Mankhool",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://maps.app.goo.gl/k2sV3niTNHBQb3cA9",
