@@ -473,7 +473,7 @@ const experience = {
           title: "Information Technology Intern",
           company: "Petrofac International",
           company_url: "https://www.petrofac.com/",
-          logo_path: "petrofac_logo.svg",
+          logo_path: "petrofac_logo.png",
           duration: "Jul 2020 - Oct 2020",
           location: "Sharjah, UAE (Remote)",
           description:
@@ -490,7 +490,7 @@ const experience = {
           title: "Research Consultant",
           company: "WorldQuant",
           company_url: "https://www.worldquant.com/",
-          logo_path: "WQ_logo.webp",
+          logo_path: "WQ_logo.jpg",
           duration: "Jul 2023 - Present",
           location: "Singapore",
           description:

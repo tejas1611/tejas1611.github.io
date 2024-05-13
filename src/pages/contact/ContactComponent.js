@@ -46,6 +46,14 @@ class Contact extends Component {
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
                   <Button
+                    text="⭐ Star Me On Github"
+                    newTab={true}
+                    href={greeting.portfolio_repository}
+                    theme={theme}
+                  />
+                </div>
+                <div className="resume-btn-div">
+                  <Button
                     text="See My Resume"
                     newTab={true}
                     href={greeting.resumeLink}
