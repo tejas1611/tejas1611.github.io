@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Tejas Goel Portfolio",
     type: "website",
-    url: "http://tejasgoel.com/",
+    url: "http://goeltejas.com/",
   },
 };
 
@@ -59,12 +59,55 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "Backend & Core Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Developing application backend in Node, React, FastAPI & Flask",
+        "⚡ Low-level programming with strong understanding of multithreading and concurrency",
+        "⚡ Working with database management systems",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "vscode-icons:file-type-cpp3",
+        },
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "logos-java",
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "devicon-linux",
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "logos:javascript",
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "devicon:nodejs-wordmark",
+        },
+        {
+          skillName: "Flask",
+          fontAwesomeClassname: "bxl:flask",
+        },
+      ],
+    },
+    {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+        "⚡ Performing exploratory data analysis, visualization and data preprocessing",
+        "⚡ Developing deep learning models for various use cases",
         "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
       ],
       softwareSkills: [
         {
@@ -91,97 +134,11 @@ const skills = {
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
+          fontAwesomeClassname: "logos:python",
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
+          skillName: "Numpy",
+          fontAwesomeClassname: "logos-numpy",
         },
       ],
     },
@@ -189,10 +146,9 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Experience working on cloud platforms for deploying servers and ML models",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Big Data analysis using cloud services like BigQuery",
       ],
       softwareSkills: [
         {
@@ -210,24 +166,10 @@ const skills = {
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
             color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
           },
         },
         {
@@ -249,45 +191,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:kubernetes",
           style: {
             color: "#326CE5",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
           },
         },
       ],
