@@ -241,6 +241,15 @@ const certifications = {
       color_code: "#2A73CC",
     },
     {
+      title: "Options 101",
+      subtitle: "- Akuna Capital",
+      logo_path: "akuna_capital_logo.jpg",
+      certificate_link:
+        "https://drive.google.com/file/d/11t_EGkm8ZBsYHAtINaWyuIkikS67KNgD/view?usp=sharing",
+      alt_name: "Akuna Capital",
+      color_code: "#000",
+    },
+    {
       title: "Blockchain Basics",
       subtitle: "- University at Buffalo",
       logo_path: "University_at_Buffalo_logo.svg",
