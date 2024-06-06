@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Tejas Goel Portfolio",
     type: "website",
-    url: "http://goeltejas.com/",
+    url: "https://tejas1611.github.io",
   },
 };
 
@@ -25,7 +25,7 @@ const greeting = {
     "Proactive software engineer and data scientist with a passion for fintech innovation dedicated to continuous learning and collaborative problem-solving.",
   resumeLink:
     "https://drive.google.com/file/d/1wYmLSfBazth9TJwyc48bishnRTpl3xzx/view?usp=sharing",
-  portfolio_repository: "https://github.com/tejas1611/portfolio",
+  portfolio_repository: "https://github.com/tejas1611/tejas1611.github.io",
   githubProfile: "https://github.com/tejas1611",
 };
 
