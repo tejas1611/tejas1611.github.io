@@ -47,6 +47,7 @@
       "url": "https://github.com/Atul-Acharya-17/Distributed-Flight-Information-System",
       "description": "Distributed application using a client-server architecture that parallelizes service request handling and implemented marshalling for network communication",
       "isFork": false,
+      "demoLink": "https://github.com/Atul-Acharya-17/Distributed-Flight-Information-System/blob/master/Distributed%20Flight%20Information%20System.pdf",
       "languages": [
         {
           "name": "C++",
@@ -65,6 +66,7 @@
       "url": "https://github.com/Sdidt/RedPILS",
       "description": "Real-time search engine with natural language classifier that empowers users to analyze and derive insights from diverse online opinions on Indian politics.",
       "isFork": false,
+      "demoLink": "https://www.youtube.com/watch?v=Rzt8V3f5I4E",
       "languages": [
         {
           "name": "Python",
@@ -103,6 +105,7 @@
       "url": "https://github.com/Sdidt/RedPILS",
       "description": "Cloud-based web application that teaches American Sign Language, integrated with automated grading of user-submitted hand gesture videos.",
       "isFork": false,
+      "demoLink": "https://www.youtube.com/watch?v=Ops_y7wUrrg",
       "languages": [
         {
           "name": "Python",
@@ -141,6 +144,7 @@
       "url": "https://github.com/SanathSame/CZ4041-Machine-Learning",
       "description": "Machine Learning pipeline incorporating exploratory data analysis, feature engineering, and deep-learning for regression to predict housing prices in Russia.",
       "isFork": false,
+      "demoLink": "https://www.youtube.com/watch?v=bE1lLHgIypQ",
       "languages": [
         {
           "name": "Jupyter Notebook",
@@ -189,6 +193,7 @@
       "url": "https://github.com/tejas1611/MagicSlate",
       "description": "An intelligent Android application that teaches how to draw; integrated computer vision for automated grading of user-submitted drawings",
       "isFork": false,
+      "demoLink": "https://www.youtube.com/watch?v=eqG78sS35ms",
       "languages": [
         {
           "name": "Python",

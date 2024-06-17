@@ -43,6 +43,13 @@
   align-items: center;
 }
 
+.video-demo-link {
+  text-decoration: none;
+  color: rgb(36, 41, 46);
+  float: left;
+  margin: 0 0 0 0;
+}
+
 .repo-svg {
   margin-right: 0.5rem;
   min-width: 16px;
