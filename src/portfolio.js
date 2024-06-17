@@ -284,6 +284,14 @@ const certifications = {
       alt_name: "UMich",
       color_code: "#00274c",
     },
+    {
+      title: "MongoDB Node.js Developer Path",
+      subtitle: "- MongoDB University",
+      logo_path: "mongodb_logo.png",
+      certificate_link: require(`./assests/images/mongodb_external_transcript.pdf`),
+      alt_name: "MongoDB",
+      color_code: "#001e2b",
+    },
   ],
 };
 
